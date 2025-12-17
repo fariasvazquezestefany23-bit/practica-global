@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <title>TIPOS DE APRENDIZAJE</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style type="text/css">
+  body {
+  font-family: monospace; 
+  margin: 0;
+  padding-top: 70px;
+  background-color: #e6e6fa; 
+  color: #333;
+  font-size: 14px; 
+  }
+  .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  }
+  
+  .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7b68ee; 
+  padding: 15px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  .menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  }
+  .menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+  }
+  .menu a:hover {
+  color: #d0bfff; 
+  }
+  
+  h1 {
+  text-align: center;
+  color: #7b68ee; 
+  margin-top: 20px;
+  }
+  
+  p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  }
+  
+  h2 {
+  color: #7b68ee;
+  margin-top: 30px;
+  border-bottom: 2px solid #d0bfff;
+  padding-bottom: 5px;
+  text-align: center; 
+  }
+  h3 {
+  color: #8a6cb5;
+  margin-top: 20px;
+  text-align: center; 
+  }
+  ul {
+  padding-left: 20px; 
+  list-style-type: none; 
+  }
+  li {
+  margin-bottom: 10px;
+  text-align: justify; 
+  }
+  
+  .card {
+  background-color: #f5f0ff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center; 
+  }
+  .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  }
+
+  footer {
+  background-color: #7b68ee;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  body {
+       background:url();
+       backgroung-repeat-y;
+  }
+  </style>
+ </head>
+ <body>
+  <div class="menu">
+  <div class="menu-container">
+  <a href="#tipos-aprendizaje">Tipos de Aprendizaje</a>
+  <a href="#estilos-de-procesamiento">Por Estilos de Procesamiento</a>
+  <a href="#visual">Visual</a>
+  <a href="#auditivo">Auditivo</a>
+  <a href="#lectura">Lectura</a>
+  <a href="#escritura">Escritura</a>
+  <a href="#kinestesico">Kinestésico</a>
+  </div>
+ </div>
+  <div id="tipos-aprendizaje" class="container">
+  <h1>TIPOS DE APRENDIZAJE</h1>
+  <p>Los tipos de aprendizaje se pueden clasificar principalmente por los estilos de procesamiento (visual, auditivo, lectura/escritura, kinestésico) y por su metodología (asociativo, no asociativo, implícito, explícito, observacional, por descubrimiento, experiencial). El aprendizaje visual se centra en las imágenes, el auditivo en escuchar, el kinestésico en la acción y el de lectura/escritura en el texto. Por otro lado, el aprendizaje asociativo vincula estímulos, el no asociativo memoriza sin vínculos, el implícito ocurre sin consciencia y el explícito requiere instrucción.</p>
+  <h2 id="por-estilos-procesamiento">Por estilos de procesamiento</h2>
+  <ul>
+  <div id="visual" class="card">
+  <h3>Visual</h3>
+  <li>El aprendizaje visual es un método de enseñanza que se basa en la utilización de imágenes, diagramas y otras representaciones gráficas para procesar y retener información de manera más efectiva. Las personas con este estilo de aprendizaje piensan mejor en imágenes y usan herramientas como mapas mentales, esquemas, infografías y colores para organizar conceptos y datos. Esta estrategia ayuda a mejorar la comprensión, la memoria y la creatividad al presentar la información de forma visual y estructurada</li>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlEOUUNMKoMNY9srIfLBLClTHlTXg6tNvQ4A&s" alt="imagen de aprendizaje visual" height="300" />
+  </div>
+  <div id="auditivo" class="card">
+  <h3>Auditivo</h3>
+  <li>El aprendizaje auditivo es un estilo de aprendizaje en el que las personas procesan y retienen información de manera más efectiva al escuchar. Los aprendices auditivos prefieren escuchar clases, discusiones y explicaciones orales en lugar de leer o realizar actividades prácticas. Para facilitar su aprendizaje, se recomienda utilizar recursos como podcasts, audiolibros, leer en voz alta y explicar conceptos a otras personas o a uno mismo.</li>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfnQMuODTWa7RkB-pcKpMNKjsmjGB2smO5Pw&s" alt="imagen de aprendizaje auditivo" height="300" />
+  </div>
+  <div id="lectura" class="card">
+  <h3>Lectura</h3>
+  <li>El aprendizaje de la lectura es un proceso complejo que involucra habilidades cognitivas y se desarrolla a través de distintas fases. Comienza con la fase logográfica, donde se reconocen palabras como imágenes; luego pasa a la alfabética, que es la relación entre letras y sonidos; continúa con la ortográfica, donde se identifican grupos de letras y palabras de manera más rápida; y culmina en la lectura fluida y expresiva, que implica comprensión y respeto por la puntuación. Un aprendizaje exitoso depende de pilares fundamentales como la conciencia fonémica, la fonética, la fluidez, el vocabulario y la comprensión lectora</li>
+  <img src="https://media.licdn.com/dms/image/v2/D4E12AQEhWEVHlYK5lQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1690324521325?e=2147483647&v=beta&t=A7tXCNdC7iA3hg5rFQNqCmxZkFI001-Q-TGoOVU9bGo" alt="imagen de aprendizaje con lectura" height="300" />
+  </div>
+  <div id="escritura" class="card">
+  <h3>Escritura</h3>
+  <li>El aprendizaje de la escritura es un proceso complejo que avanza por etapas (emergente, inicial y establecida) e implica habilidades como la decodificación de letras y la comprensión del lenguaje escrito. Este proceso no es espontáneo y requiere la interacción de la maduración, la experiencia y la transmisión social, siendo la lectura una parte fundamental del mismo. El objetivo final es la producción de textos coherentes y la expresión de ideas</li>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwf0i2rHa-BBGHuyH60tL98S9HOHp_JPh1pA&s" alt="imagen de aprendizaje con escritura" height="300" />
+  </div>
+  <div id="kinestesico" class="card">
+  <h3>Kinestésico</h3>
+  <li>El aprendizaje kinestésico es un estilo de aprendizaje que se basa en el movimiento, el tacto y la experiencia física para comprender y retener información. Las personas con este estilo aprenden "haciendo", manipulando objetos, participando en actividades prácticas y moviéndose para asimilar conceptos, en lugar de solo leer o escuchar. Este enfoque es particularmente efectivo para materias que requieren destrezas manuales y aplicación práctica</li>
+  <img src="https://universidadeuropea.com/resources/media/images/aprendizaje-kinestesico-1200x630.original.jpg" alt="imagen de aprendizaje kinestico" height="300"/>
+  </div>
+  </ul>
+ </div>
+<h2> AUTISMO Y SUS TIPOS</h2>
+  <div id="visual" class="card">
+  <h3> Que es el Autismo</h3>
+  <p>El autismo, o trastorno del espectro autista (TEA), es una condición del neurodesarrollo que afecta cómo una persona se comunica, interactúa socialmente y aprende. Se caracteriza por déficits en la comunicación social y la presencia de patrones de comportamiento, intereses o actividades restrictivos y repetitivos. Los síntomas varían ampliamente en gravedad, lo que explica por qué se le llama "espectro". </p>
+</div>
+  <div id="visual" class="card">
+<h3>Tipos De Autismo</h3>
+<ul>
+<li>Síndrome de Asperger: Se caracterizaba por dificultades en la interacción social y patrones de comportamiento restringidos, pero sin un retraso general en el desarrollo del lenguaje o del intelecto. </li>
+<img src="https://neuronup.com/wp-content/uploads/2023/02/Sintomas-del-Chemobrain-2.webp" alt="imagen de tipo de autismo" height="200" />
+<li>Trastorno desintegrativo infantil: Implicaba una regresión drástica de habilidades después de un período de desarrollo normal. </li>
+<img src="https://static.guiainfantil.com/pictures/articulos2/45000/45322-trastorno-desintegrativo-infantil-una-regresion-en-el-desarrollo-del-nino.jpg" alt="imagen tipo de autismo" height="200"/>
+<li>Síndrome de Rett: Es un trastorno genético que afecta principalmente a niñas y se caracteriza por una regresión en el desarrollo después de un período de desarrollo aparentemente normal. </li>
+<img src="https://bloghoptoys.es/wp-content/uploads/2014/05/foto.jpg" alt="imagen tipo de autismo" height="200" />
+<li>Trastorno generalizado del desarrollo no especificado: Se usaba para casos de autismo que no cumplían con todos los criterios de otro diagnóstico. </li>
+<img src="https://assets.babycenter.com/ims/2014/03/103584728_4x3.jpg" alt="imagen tipo de autismo" height="200"/>
+</ul>
+</div>
+  <footer>
+  <p>  TIPOS DE APRENDIZAJE Y TIPOS DE AUTISMO</p>
+  </footer>
+ </body>
+ 
+ </html>
